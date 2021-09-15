@@ -7,7 +7,7 @@
     "test": "jest --coverage",
     "build": "npx ncc build ./src/index.ts"
   },
-  "author": "Jason Etcovitch <jasonetco@gmail.com>",
+  "author": "Nathaniel RUiz <teknato@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.6",

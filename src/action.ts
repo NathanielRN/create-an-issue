@@ -15,6 +15,9 @@ export async function createAnIssue (tools: Toolkit) {
 
   const templateVariables = {
     ...tools.context,
+    repo: tools.context.repo,
+    issue: tools.context.issue,
+    pullRequest: tools.context.pullRequest,
     env: process.env,
     date: Date.now()
   }
